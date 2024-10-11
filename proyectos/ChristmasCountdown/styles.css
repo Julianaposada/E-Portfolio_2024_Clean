@@ -1,0 +1,79 @@
+body {
+    background-image: url('images/pexels-george-dolgikh-1303098.jpg'); /* Ajusta el nombre de la imagen según tu descarga */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.countdown-container {
+    text-align: center;
+    color: #fff; /* Texto en color blanco */
+}
+
+.countdown-number {
+    font-size: 3em; /* Tamaño grande para los números */
+    font-weight: bold;
+    margin: 0 10px; /* Espaciado entre los números */
+    color: #ff4500; /* Color naranja */
+}
+
+.countdown-label {
+    font-size: 1.5em; /* Tamaño mediano para las etiquetas (días, horas, etc.) */
+    color: #008000; /* Color verde oscuro */
+}
+
+#text-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#christmas,
+#date {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px;
+    opacity: 0;
+    animation: fadeInOut 2s infinite; /* Animación de 2 segundos, repetir infinitamente */
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+#text-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#christmas,
+#date,
+#merry-christmas {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px;
+    opacity: 0;
+    animation: fadeInOut 2s infinite; /* Animación de 2 segundos, repetir infinitamente */
+}
+
+#christmas {
+    color: red; /* Cambia el color de "Christmas" */
+}
+
+#date {
+    color: green; /* Cambia el color de la fecha */
+}
+
+#merry-christmas {
+    color: blue; /* Cambia el color del mensaje "Merry Christmas" */
+}

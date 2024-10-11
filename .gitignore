@@ -1,0 +1,40 @@
+# Ignorar archivos de sistema de Mac
+.DS_Store
+.Trash/
+
+# Ignorar carpetas específicas
+.cisco/
+.anyconnect/
+.anydesk/
+.azuredatastudio/
+.bitnami/
+.cache/
+.composer/
+.config/
+.dart/
+.docker/
+.flutter/
+.gitconfig
+.host/
+.local/
+.m2/
+.mongodb/
+.netbeans-derby/
+.npm/
+.nuuid.ini
+.nvm/
+.odbc.ini
+.oracle_jre_usage/
+.packettracer/
+.pgadmin/
+.platformio/
+.ssh/
+.swiftpm/
+.vscode/
+.yarn/
+.zcompdump
+
+# Ignorar archivos temporales y logs
+*.log
+*.tmp
+

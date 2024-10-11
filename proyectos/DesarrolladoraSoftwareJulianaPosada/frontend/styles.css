@@ -1,0 +1,100 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f8f9;
+    color: #161515;
+}
+
+header {
+    background-color: #0e0e0e;
+    color: #f4ecec;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+section:nth-child(even) {
+    background-color: #dd1c1c;
+}
+
+section:nth-child(odd) {
+    background-color: #f0f3f2;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos para los encabezados */
+h1, h2, h3 {
+    color: #171717;
+}
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: none;
+    color: #dd1c1c;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #f4eded;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #0f0f0f;
+    color: #dd1c1c;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para los servicios */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service {
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f1eded;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(229, 23, 23, 0.1);
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+/* Adjust the video size */
+.service video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}

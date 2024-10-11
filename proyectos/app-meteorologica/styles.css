@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/wepik-export-20231117211218fxci.png'); /* Reemplaza con la ruta de tu imagen transparente */
+    background-size: cover;
+    background-position: center;
+    transition: background-color 0.5s ease;
+}
+
+/* ... (resto del código CSS) */
+
+
+.weather-app {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco translúcido para mejorar la legibilidad */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.weather-sunny {
+    background-color: rgba(244, 114, 8, 0.7) /* Fondo naranja para soleado */
+}
+
+.weather-rainy {
+    background-color: rgba(94, 97, 99, 0.7); /* Fondo gris para lluvioso */
+}
+
+.weather-cloudy {
+    background-color: rgba(5, 100, 224, 0.7); /* Fondo azul  para nublado */
+}
